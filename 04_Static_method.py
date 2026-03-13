@@ -13,7 +13,7 @@ class Employee:
 # where in such static methods attributes cannot be utilized or called 
 # when no necessary of object inside functionn nd if we dont call any attribute that time static method is used so it no need of self parameter
 
-# following 
-print(Employee.getInfo)
+#following 
+print(str(Employee.getInfo))
 naveen = Employee()
 print(naveen.ask() , naveen.getInfo())
